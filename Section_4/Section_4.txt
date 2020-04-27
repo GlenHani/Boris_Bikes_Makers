@@ -1,0 +1,16 @@
+1) Write down the type of error:
+    uninitialized constant
+
+2) Write down the file path where the error happened
+/Users/student/.rvm/rubies/ruby-2.7.0/lib/ruby/gems/2.7.0/gems/irb-1.2.1/exe/irb:11:in
+
+3) Write down the line number of the error
+rom (irb):1
+2.7.0 :001 > docking_station = DockingStation.new
+
+4) Use the Ruby Documentation to find out what the error means:
+    Runtime error, no class has been initilaised with the name DockingStation
+
+
+5) Suggest one way of solving the error.
+    Create class as docking_station
