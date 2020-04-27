@@ -10,7 +10,7 @@ Write down all the nouns in the User Stories:
 Draw a table like the one above / Organise the nouns and verbs into Objects and Messages within the table
 Objects	                    Messages
 Person	
-Bike	                    release_a_bike
+Docking Station	            release_a_bike
 Bike                        bike_is_working
 
 Draw a diagram that shows how your Objects will use Messages to communicate with one another:
