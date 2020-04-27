@@ -15,3 +15,10 @@ Bike                        bike_is_working
 
 Draw a diagram that shows how your Objects will use Messages to communicate with one another:
 Refree to Image in Folder Section 2
+
+______________________________________________________________________________________________
+
+1) Give the structure of a User Story
+    Glen        A User
+                A Object
+                A Function 
