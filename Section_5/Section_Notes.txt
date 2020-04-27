@@ -1,0 +1,12 @@
+An error occurred while loading ./spec/DockingStation_spec.rb.
+Failure/Error:
+  describe DockingStation do
+  
+  end
+
+NameError:
+  uninitialized constant DockingStation
+
+
+
+Same error as before becasue a class called DockingStation hasn't defined.
