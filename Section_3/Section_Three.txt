@@ -8,3 +8,4 @@ Traceback (most recent call last):
         1: from (irb):2:in `rescue in irb_binding'
 NameError (uninitialized constant DockingStation)
 
+Above error is due to DockingStation class not existing. To resolve create DockingStation.new class.
