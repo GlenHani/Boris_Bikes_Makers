@@ -16,7 +16,16 @@ Bike                        bike_is_working
 Draw a diagram that shows how your Objects will use Messages to communicate with one another:
 Refree to Image in Folder Section 2
 
+<<<<<<< HEAD
 
 CJ
   Section 2 structure
   a user would like to interact with an object. They need to be told whether they can interact with it or not. 
+=======
+______________________________________________________________________________________________
+
+1) Give the structure of a User Story
+    Glen        A User
+                A Object
+                A Function 
+>>>>>>> 57ac33887e2366f147c220814fa62367eb025eb0
