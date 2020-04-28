@@ -1,0 +1,1 @@
+ Add a test to your DockingStation specification that a) gets a bike, and then b) expects the bike to be working
