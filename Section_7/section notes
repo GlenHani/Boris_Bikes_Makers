@@ -1,0 +1,22 @@
+
+Makerss-Air-2:Boris_Bikes_Makers student$ irb
+2.7.0 :001 > require './lib/docking_station'
+ => true 
+2.7.0 :002 > docking_station = DockingStation.new
+2.7.0 :003 > 
+
+Explain to your pair partner why you do not see an error now, when you did before:
+
+A new instance of class Docking Station has been triggered as is avaliable hence no error message 
+
+2.7.0 :003 > docking_station.release_bike
+Traceback (most recent call last):
+        4: from /Users/student/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `<main>'
+        3: from /Users/student/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `load'
+        2: from /Users/student/.rvm/rubies/ruby-2.7.0/lib/ruby/gems/2.7.0/gems/irb-1.2.1/exe/irb:11:in `<top (required)>'
+        1: from (irb):3
+NoMethodError (undefined method `release_bike' for #<DockingStation:0x00007f86d4063ee0>)
+2.7.0 :004 > 
+
+
+We don't have a defined methoed for 'release_bike'

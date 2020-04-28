@@ -1,4 +1,4 @@
-require DockingStation
+require './lib/docking_station'
 
 describe DockingStation do
 
