@@ -1,0 +1,8 @@
+Makerss-Air-2:lib student$ rspec
+No examples found.
+
+
+Finished in 0.00058 seconds (files took 0.06303 seconds to load)
+0 examples, 0 failures
+
+DockingStatin file found and can iniate via the class 

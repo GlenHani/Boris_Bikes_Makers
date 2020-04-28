@@ -1,0 +1,3 @@
+class DockStation
+  
+end
