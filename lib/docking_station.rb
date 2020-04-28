@@ -1,5 +1,4 @@
 class DockingStation
-    def initialize()
-        @DockingStation = DockingStation
-    end
+  def release_bike
+  end
 end
