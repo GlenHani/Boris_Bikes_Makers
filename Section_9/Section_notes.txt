@@ -1,0 +1,13 @@
+Explain the error to your pair partner
+
+2.7.0 :007 > bike.working?
+Traceback (most recent call last):
+        4: from /Users/student/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `<main>'
+        3: from /Users/student/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `load'
+        2: from /Users/student/.rvm/rubies/ruby-2.7.0/lib/ruby/gems/2.7.0/gems/irb-1.2.1/exe/irb:11:in `<top (required)>'
+        1: from (irb):7
+NoMethodError (undefined method `working?' for nil:NilClass)
+2.7.0 :008 > 
+
+no method has been defined for working?
+
