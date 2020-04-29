@@ -12,8 +12,13 @@ describe DockingStation do
     working = double("Bike")
 
     allow(working).to receive(:working?)  {true}
-
     expect(docking_station).to respond_to(:release_bike)
+  end
+
+  it 'Return Bike' do
+    docking_station = DockingStation.new
+    docking_station.return_bike
+    expect(docking_station).to respond_to(:return_bike)
   end
 
 end
