@@ -26,9 +26,18 @@ RSpec.describe DockingStation do
   end
 
   it 'has default capacity?' do
-    docking_station = DockingStation.new(50)
+    docking_station = DockingStation(50).new
     50.times { docking_station.dock Bike.new }
     expect{ docking_station.dock Bike.new }.to raise_error 'Docking station full'
   end
+
+  it 'not release if broken bike ' do
+    docking_station = DockingStation.new
+  
+    
+    expect{ docking_station.release_bike  }.to raise_error 'Broken bike '
+  end
+
+  
 
 end

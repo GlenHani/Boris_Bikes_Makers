@@ -2,9 +2,21 @@ class Bike
   def docked_bike
     return true
   end
-    def working?
+
+  def working?
     return true
-    end
   end
+
+
+  def report_broken
+    @broken = true
+  end
+  
+  def broken?
+    @broken
+  end
+
+
+end
 
 
