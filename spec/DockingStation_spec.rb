@@ -9,8 +9,8 @@ RSpec.describe DockingStation do
   end
 
   it 'Return Bike' do
-    docking_station = DockingStation.new
-    expect(docking_station).to respond_to(:dock)
+    
+    expect(subject).to respond_to(:dock)
   end
 
   it "raises an error when there are no bikes available" do 
@@ -18,8 +18,17 @@ RSpec.describe DockingStation do
   end
 
   it 'raises an error when full' do
-    20.times { subject.dock Bike.new }
+    subject.capacity.times do 
+      subject.dock Bike.new
+    end
+
     expect { subject.dock Bike.new }.to raise_error 'Docking station full'
+  end
+
+  it 'has default capacity?' do
+    docking_station = DockingStation.new(50)
+    50.times { docking_station.dock Bike.new }
+    expect{ docking_station.dock Bike.new }.to raise_error 'Docking station full'
   end
 
 end

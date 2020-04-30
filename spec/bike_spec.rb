@@ -10,5 +10,5 @@ describe Bike do
     bike = Bike.new
     expect(bike).to respond_to(:docked_bike)
   end
-
+  
 end
